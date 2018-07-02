@@ -25,23 +25,23 @@ public class BackCube : MonoBehaviour {
         IsWait = false;
         StartCoroutine("WaitWhile", 2.0f);
     }
-	
-	// Update is called once per frame
-	//void Update () {
 
- //       if (ifMove)
- //       {
- //           if (flag)
- //           {
- //               this.transform.position -= vec1 * 0.02f;
- //           }
- //           else
- //           {
- //               this.transform.position += vec1 * 0.02f;
- //           }
- //       }
- //       move();
- //   }
+    //void Update()
+    //{
+
+    //    if (ifMove)
+    //    {
+    //        if (flag)
+    //        {
+    //            this.transform.position -= vec1 * 0.02f;
+    //        }
+    //        else
+    //        {
+    //            this.transform.position += vec1 * 0.02f;
+    //        }
+    //    }
+    //    move();
+    //}
     public void move()
     {
         if (this.transform.position.x >= TempPos&&ifMove)
@@ -67,16 +67,36 @@ public class BackCube : MonoBehaviour {
     {
         while(true)
         {
-            if (transform.position.x >= TempPos || transform.position.x <= -7.4f)
+            if ((transform.position.x >= TempPos || transform.position.x <= -7.4f)&&!IsWait)
             {
                 IsWait = true;
                 yield return new WaitForSeconds(2.0f);
+               
             }
             else
+            {
+                IsWait = false;
                 yield return null;
+
+            }
             if(!IsWait)
             {
-
+                if (transform.position.x >= TempPos)
+                {
+                    flag = true;
+                }
+                if (this.transform.position.x <= -7.4)
+                {
+                    flag = false;
+                }
+                if (flag)
+                {
+                    this.transform.position -= vec1 * 0.02f;
+                }
+                else
+                {
+                    this.transform.position += vec1 * 0.02f;
+                }
             }
         }
     }
