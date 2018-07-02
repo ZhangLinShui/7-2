@@ -1,0 +1,68 @@
+[OPTIONS]
+Compiled file=../help.chm
+Compatibility=1.1
+Full-text search=Yes
+Contents file=index.hhc
+Default Window=main
+Default topic=index.html
+Index file=index.hhk
+Language=0x804 Chinese (PRC)
+Title=My Project
+
+[WINDOWS]
+main="My Project","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
+
+[FILES]
+_back_cube_8cs.html
+_cylinder_8cs.html
+_move_8cs.html
+_my_camrea_8cs.html
+_new_behaviour_script_8cs.html
+_sphere_script_8cs.html
+class_back_cube.html
+class_back_cube-members.html
+class_cylinder.html
+class_cylinder-members.html
+class_move.html
+class_move-members.html
+class_my_camrea.html
+class_my_camrea-members.html
+class_new_behaviour_script.html
+class_new_behaviour_script-members.html
+class_sphere_script.html
+class_sphere_script-members.html
+dir_84bbf7b3c7f28a5a18725745e1505219.html
+dir_f13b41af88cf68434578284aaf699e39.html
+index.html
+annotated.html
+classes.html
+hierarchy.html
+functions.html
+functions_func.html
+functions_vars.html
+files.html
+tab_a.png
+tab_b.png
+tab_h.png
+tab_s.png
+nav_h.png
+nav_f.png
+bc_s.png
+doxygen.png
+closed.png
+open.png
+bdwn.png
+sync_on.png
+sync_off.png
+doc.png
+folderopen.png
+folderclosed.png
+arrowdown.png
+arrowright.png
+splitbar.png
+class_back_cube.png
+class_cylinder.png
+class_move.png
+class_my_camrea.png
+class_new_behaviour_script.png
+class_sphere_script.png
