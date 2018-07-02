@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: af4b1bbf75425b24d92e9c248be1b162
+timeCreated: 1530083040
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - cube: {instanceID: 0}
+  - MyCamera: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
