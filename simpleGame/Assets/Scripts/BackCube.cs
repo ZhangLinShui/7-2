@@ -63,6 +63,12 @@ public class BackCube : MonoBehaviour {
         ifMove = true;
     }
 
+    /**
+      *@协程的用法
+      * 
+      *@param WaitTime等待的时间间隔时长
+         
+         */
     private IEnumerator WaitWhile(float WaitTime)
     {
         while(true)
